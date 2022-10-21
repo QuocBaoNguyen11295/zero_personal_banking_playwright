@@ -4,7 +4,8 @@
   "description": "Personal banking with playwright",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pw:test": "playwright test",
+    "pw:test_chrome": "playwright test --config=e2e.config.ts --project=chromium"
   },
   "repository": {
     "type": "git",
