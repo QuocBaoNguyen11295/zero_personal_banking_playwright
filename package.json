@@ -1,0 +1,28 @@
+{
+  "name": "zero_personal_banking_playwright",
+  "version": "1.0.0",
+  "description": "Personal banking with playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuocBaoNguyen11295/zero_personal_banking_playwright.git"
+  },
+  "keywords": [
+    "ts",
+    "js",
+    "playwright"
+  ],
+  "author": "Quoc Bao Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuocBaoNguyen11295/zero_personal_banking_playwright/issues"
+  },
+  "homepage": "https://github.com/QuocBaoNguyen11295/zero_personal_banking_playwright#readme",
+  "dependencies": {
+    "@playwright/test": "^1.26.1",
+    "prettier": "^2.7.1"
+  }
+}
