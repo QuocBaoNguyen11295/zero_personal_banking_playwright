@@ -1,4 +1,5 @@
-import { loadPage,closePage,loginSuccessfully, loginUnsuccesfully } from "../../helpers/helper";
+import { loginSuccessfully, loginUnsuccesfully } from "../../helpers/login";
+import { loadPage,closePage } from "../../helpers/helper"
 import {test} from '@playwright/test'
 
 test.describe('Login feature',()=>{
