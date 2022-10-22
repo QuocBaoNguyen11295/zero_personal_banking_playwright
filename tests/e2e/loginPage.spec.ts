@@ -1,4 +1,4 @@
-import { loginSuccessfully, loginUnsuccesfully } from "../../helpers/login";
+import { loginSuccessfully, loginUnsuccesfully } from "../../helpers/loginHelper";
 import { loadPage,closePage } from "../../helpers/helper"
 import {test} from '@playwright/test'
 

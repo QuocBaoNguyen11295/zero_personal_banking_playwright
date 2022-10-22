@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
 import { loadPage,closePage,clickOnFeedbackPage } from '../../helpers/helper'
-import { submitFeedback,verifyTheMessage } from '../../helpers/feedback' 
+import { submitFeedback,verifyTheMessage } from '../../helpers/feedbackHelper' 
 var feedbackData = require('../../data/feedback.json')
 
 test.describe('Send the feedback',()=>{
