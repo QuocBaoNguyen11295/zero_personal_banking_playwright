@@ -1,0 +1,8 @@
+{
+    "from_account": "Savings(Avail. balance = $ 1000)",
+    "to_account": "Savings(Avail. balance = $ 1548)",
+    "amount" : "500",
+    "description": "Text",
+    "from_account_verify": "Savings",
+    "to_account_verify": "Savings"
+}
