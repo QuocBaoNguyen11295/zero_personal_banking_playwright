@@ -1,4 +1,4 @@
-import test, { expect } from "@playwright/test"
+import { expect } from "@playwright/test"
 
 export async function clickOnShowTransaction(page) {
     await page.click('#tabs > ul > li:nth-child(1)')

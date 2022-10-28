@@ -1,4 +1,4 @@
-import {expect, test} from '@playwright/test'
+import {expect} from '@playwright/test'
 
 export async function verifyTransferFundSuccessfully(page,from_account:string,to_account:string,amount:string) {
     await expect(page.locator('.alert-success')).toContainText('You successfully submitted your transaction.')

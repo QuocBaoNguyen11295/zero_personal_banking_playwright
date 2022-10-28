@@ -9,3 +9,7 @@ export async function clickOnAccountActivity(page) {
 export async function clickOnTransferFund(page) {
     await page.click('#transfer_funds_link')
 }
+
+export async function clickOnPayBills(page) {
+    await page.click('#pay_bills_link')
+}

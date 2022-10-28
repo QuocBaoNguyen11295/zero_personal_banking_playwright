@@ -1,5 +1,3 @@
-import {test} from '@playwright/test'
-
 export async function submitTransferFund(page,from_account:string,to_account:string,amount:string,description:string) {
     await page.selectOption('#tf_fromAccountId',{label: from_account})
     await page.selectOption('#tf_toAccountId',{label: to_account})
